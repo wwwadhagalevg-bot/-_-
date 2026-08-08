@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>नंदिनी ऑनलाइन | आपले सरकार सेवा केंद्र</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Header -->
+<header class="header">
+
+<div class="logo">
+🌐
+</div>
+
+<div>
+<h1>नंदिनी ऑनलाइन</h1>
+<p>आपले सरकार सेवा केंद्र</p>
+</div>
+
+</header>
+
+
+<!-- Hero Section -->
+<section class="hero">
+
+<div class="hero-content">
+
+<h2>नंदिनी ऑनलाइन</h2>
+
+<h3>आपले सरकार सेवा केंद्र</h3>
+
+<p>
+विविध शासकीय व ऑनलाइन सेवांची माहिती
+एकाच ठिकाणी उपलब्ध.
+</p>
+
+<a href="#services" class="main-button">
+उपलब्ध सेवा पाहा
+</a>
+
+</div>
+
+</section>
+
+
+<!-- Services -->
+<section class="services" id="services">
+
+<h2>आमच्या सेवा</h2>
+
+<p class="section-description">
+नागरिकांसाठी उपलब्ध विविध ऑनलाइन व शासकीय सेवांची माहिती
+</p>
+
+
+<div class="service-container">
+
+
+<div class="service-card">
+
+<div class="icon">🏛️</div>
+
+<h3>आपले सरकार सेवा</h3>
+
+<p>
+आपले सरकार अंतर्गत उपलब्ध
+विविध शासकीय सेवांची माहिती.
+</p>
+
+</div>
+
+
+<div class="service-card">
+
+<div class="icon">💻</div>
+
+<h3>महाईसेवा व ऑनलाइन अर्ज</h3>
+
+<p>
+विविध ऑनलाइन अर्ज व
+डिजिटल सेवांची माहिती.
+</p>
+
+</div>
+
+
+<div class="service-card">
+
+<div class="icon">📄</div>
+
+<h3>प्रमाणपत्र व शासकीय कागदपत्रे</h3>
+
+<p>
+विविध प्रमाणपत्रे व
+शासकीय कागदपत्रांसंबंधी माहिती.
+</p>
+
+</div>
+
+
+<div class="service-card">
+
+<div class="icon">🌐</div>
+
+<h3>सर्वसामान्य ऑनलाइन सेवा</h3>
+
+<p>
+नागरिकांसाठी उपलब्ध
+विविध सामान्य ऑनलाइन सेवांची माहिती.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- About -->
+<section class="about">
+
+<h2>नंदिनी ऑनलाइन बद्दल</h2>
+
+<p>
+नंदिनी ऑनलाइन – आपले सरकार सेवा केंद्र येथे
+नागरिकांना विविध ऑनलाइन व शासकीय सेवांची
+माहिती मिळवून देण्यासाठी हे व्यासपीठ तयार करण्यात आले आहे.
+</p>
+
+<p class="location">
+📍 वरणगाव
+</p>
+
+</section>
+
+
+<!-- Contact -->
+<section class="contact">
+
+<h2>संपर्क</h2>
+
+<p>
+सेवांबद्दल अधिक माहितीसाठी
+नंदिनी ऑनलाइन – आपले सरकार सेवा केंद्राशी संपर्क साधा.
+</p>
+
+<button onclick="contactMessage()">
+संपर्क माहिती
+</button>
+
+</section>
+
+
+<!-- Footer -->
+<footer>
+
+<h3>नंदिनी ऑनलाइन</h3>
+
+<p>
+आपले सरकार सेवा केंद्र
+</p>
+
+<p>
+© 2026 सर्व हक्क राखीव
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

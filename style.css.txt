@@ -1,0 +1,305 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background: #f5f9ff;
+color: #172b4d;
+line-height: 1.6;
+}
+
+
+/* HEADER */
+
+.header {
+background: #075985;
+color: white;
+
+padding: 18px 8%;
+
+display: flex;
+align-items: center;
+
+gap: 15px;
+}
+
+.logo {
+font-size: 42px;
+}
+
+.header h1 {
+font-size: 27px;
+}
+
+.header p {
+font-size: 15px;
+}
+
+
+/* HERO */
+
+.hero {
+min-height: 430px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+text-align: center;
+
+padding: 50px 20px;
+
+background: linear-gradient(
+135deg,
+#e0f2fe,
+#f0f9ff
+);
+}
+
+.hero-content {
+max-width: 800px;
+}
+
+.hero h2 {
+font-size: 46px;
+color: #075985;
+margin-bottom: 5px;
+}
+
+.hero h3 {
+font-size: 27px;
+color: #0369a1;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 19px;
+margin-bottom: 30px;
+}
+
+
+/* BUTTON */
+
+.main-button,
+button {
+display: inline-block;
+
+background: #075985;
+color: white;
+
+border: none;
+
+padding: 13px 28px;
+
+border-radius: 30px;
+
+font-size: 17px;
+
+text-decoration: none;
+
+cursor: pointer;
+
+transition: 0.3s;
+}
+
+.main-button:hover,
+button:hover {
+background: #0c4a6e;
+transform: translateY(-2px);
+}
+
+
+/* SERVICES */
+
+.services {
+padding: 65px 8%;
+text-align: center;
+}
+
+.services h2,
+.about h2,
+.contact h2 {
+color: #075985;
+font-size: 34px;
+margin-bottom: 10px;
+}
+
+.section-description {
+margin-bottom: 40px;
+color: #52616b;
+}
+
+
+.service-container {
+display: flex;
+
+justify-content: center;
+
+gap: 25px;
+
+flex-wrap: wrap;
+}
+
+
+.service-card {
+background: white;
+
+width: 280px;
+
+min-height: 260px;
+
+padding: 30px 22px;
+
+border-radius: 18px;
+
+box-shadow:
+0 5px 20px rgba(0,0,0,0.10);
+
+transition: 0.3s;
+}
+
+
+.service-card:hover {
+transform: translateY(-8px);
+}
+
+
+.icon {
+font-size: 50px;
+margin-bottom: 15px;
+}
+
+
+.service-card h3 {
+color: #075985;
+
+font-size: 21px;
+
+margin-bottom: 12px;
+}
+
+
+.service-card p {
+font-size: 16px;
+
+color: #52616b;
+}
+
+
+/* ABOUT */
+
+.about {
+background: #e0f2fe;
+
+text-align: center;
+
+padding: 60px 20px;
+}
+
+.about p {
+max-width: 750px;
+
+margin: 12px auto;
+
+font-size: 18px;
+}
+
+.location {
+font-weight: bold;
+
+color: #075985;
+}
+
+
+/* CONTACT */
+
+.contact {
+text-align: center;
+
+padding: 60px 20px;
+
+background: white;
+}
+
+.contact p {
+max-width: 650px;
+
+margin: 0 auto 25px;
+
+color: #52616b;
+}
+
+
+/* FOOTER */
+
+footer {
+background: #082f49;
+
+color: white;
+
+text-align: center;
+
+padding: 30px 20px;
+}
+
+footer h3 {
+font-size: 23px;
+
+margin-bottom: 5px;
+}
+
+footer p {
+margin: 5px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+.header {
+padding: 15px 5%;
+}
+
+.header h1 {
+font-size: 21px;
+}
+
+.logo {
+font-size: 35px;
+}
+
+.hero {
+min-height: 380px;
+}
+
+.hero h2 {
+font-size: 35px;
+}
+
+.hero h3 {
+font-size: 22px;
+}
+
+.hero p {
+font-size: 17px;
+}
+
+.services {
+padding: 50px 5%;
+}
+
+.services h2,
+.about h2,
+.contact h2 {
+font-size: 28px;
+}
+
+.service-card {
+width: 100%;
+}
+
+}
